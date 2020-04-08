@@ -2,6 +2,7 @@
 analiseData.py
 datasets.md
 .DS_Store
+predictions/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
