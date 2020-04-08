@@ -4,7 +4,7 @@
 
 **Disclaimer**: the predictions (solid lines and ribbons in the figures) are estimated using Gompertz functions, a very crude fitting exercise, they are not obtained using a model for spread of disease.
 
-Figures and statistical forecast provided by Paolo Davini's [COvId NineTeen R-based ElementAr Utility (Cointreau)](https://github.com/oloapinivad/Cointreau) project, used to forecast [Italian regions and other countries](http://wilma.to.isac.cnr.it/diss/paolo/covid-19/). 
+Figures and statistical forecast provided by Paolo Davini via his [COvId NineTeen R-based ElementAr Utility (Cointreau)](https://github.com/oloapinivad/Cointreau) project, used to forecast [Italian regions and other countries](http://wilma.to.isac.cnr.it/diss/paolo/covid-19/). 
 
 ![Cumulative and daily deaths by England macro-area at 2020-04-08](./england_regions_COVID_prediction_day_2020-04-08.png)
 
