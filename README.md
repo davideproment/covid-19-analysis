@@ -13,12 +13,11 @@ Figures and statistical forecast provided by Paolo Davini's [COvId NineTeen R-ba
 [covid-19-totals-england-region.csv](./covid-19-totals-england-region.csv): daily deaths by regions of England, parsed from [https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/](https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/).
 
 
-## Main datasets sources
+## Main dataset
 * NHS England [daily deaths by trust and region](https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/)
-* Tom White's [COVID-19 UK Historical Data](https://github.com/tomwhite/covid-19-uk-data)
 
 
-## Other datasets
+## Other useful datasets
 * [UK GOV](https://www.gov.uk/guidance/coronavirus-covid-19-information-for-the-public#number-of-cases-and-deaths)
 * [Office for National Statistics (ONS), deaths registered weekly in England and Wales](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales)
 * [Northern Ireland Statistics and Research Agency (NISRA), weekly deaths registrations in Northern Ireland](https://www.nisra.gov.uk/publications/weekly-deaths)
@@ -27,6 +26,9 @@ Figures and statistical forecast provided by Paolo Davini's [COvId NineTeen R-ba
 
 
 ## Related projects/datasets
+* Tom White's [COVID-19 UK Historical Data](https://github.com/tomwhite/covid-19-uk-data)
 * Ian Watt's [COVID-19 Scotland dataset](https://github.com/watty62/Scot_covid19)
 * Emma Doughty's [UK COVID-19 data](https://github.com/emmadoughty/Daily_COVID-19)
+* Corentin Barbu's [Analyse Covid-19 (French)](https://ecosys.versailles-grignon.inra.fr/SpatialAgronomy/covid19/#sur_cette_page)
+* IHME [COVID-19 Projections](https://covid19.healthdata.org/)
 
