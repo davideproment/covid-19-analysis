@@ -10,7 +10,7 @@ def getDateExcel():
 	day=today.day
 	month=today.strftime("%B")
 	year=today.year
-	return str(day-1) + '-' + month + '-' + str(year)
+	return str(day) + '-' + month + '-' + str(year)
 
 
 def getDateFigure():
@@ -21,6 +21,12 @@ def getDateFigure():
 	return year + '-' + month + '-' + day 
 
 
+def getPastDateFigure(pastDate=-1):
+	today=date.today()
+	day=f'{today.day+pastDate:02d}'
+	month=f'{today.month:02d}'
+	year=str(today.year)
+	return year + '-' + month + '-' + day 
 
 
 

@@ -3,6 +3,9 @@
 from PIL import Image
 import getDate
 
+print(getDate.getDateFigure())
+print(getDate.getPastDateFigure())
+
 from pdf2image import convert_from_path
 from pdf2image.exceptions import (
     PDFInfoNotInstalledError,
@@ -36,3 +39,15 @@ filename='england_regions_COVID_prediction_day_' + getDate.getDateFigure() + '.p
 shutil.move('./' + filename, './allPredictions/')
 print('./allPredictions/' + filename)
 
+
+import fileinput
+
+filename='./README.md'
+
+print(getDate.getPastDateFigure(), getDate.getDateFigure())
+
+macs = {getDate.getPastDateFigure(): getDate.getDateFigure()}
+
+for line in fileinput.input(filename):
+    line=line.rstrip('\r\n')
+    print(macs.get(line, line))

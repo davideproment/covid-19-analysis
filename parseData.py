@@ -3,19 +3,14 @@
 import numpy as np
 import pandas as pd
 
-from datetime import date
 
-today = date.today()
-#print("Today's date:", today)
+import getDate
 
-day=today.day
-#print(today.day)
-month=today.strftime("%B")
-#print(month)
-year=today.year
-#print(today.year)
 
-url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-total-announced-deaths-' + str(day-1) + '-' + month + '-' + str(year) + '.xlsx'
+
+
+
+url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-total-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
 print(url)
 
 #url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-total-announced-deaths-8-April-2020.xlsx'
