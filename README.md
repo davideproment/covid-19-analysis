@@ -8,6 +8,7 @@ Figures and statistical forecast provided by Paolo Davini via his [COvId NineTee
 
 ![Cumulative and daily deaths by England macro-area at 2020-04-08](./england_regions_COVID_prediction_day_2020-04-08.png)
 
+**Note** (from NHS England dataset): interpretation of the figures should take into account the fact that totals by date of death, particularly for recent prior days, are likely to be updated in future releases. For example as deaths are confirmed as testing positive for Covid-19, as more post-mortem tests are processed and data from them are validated. Any changes are made clear in the daily files.
 
 ## Data files
 [covid-19-totals-england-region.csv](./covid-19-totals-england-region.csv): daily deaths by regions of England, parsed from [https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/](https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/).
