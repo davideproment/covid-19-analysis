@@ -4,5 +4,5 @@
 python3 updateFigure.py
 python3 updateREADME.py
 git add .
-git commit -m 'update data'
+git commit -m 'analysis updated'
 git push
