@@ -14,9 +14,14 @@ import wget
 
 import shutil
 import os
+import os.path
 
 
 filelist=[ f for f in os.listdir('./') if f.endswith('png') ]
+for f in filelist:
+    os.remove(os.path.join('./', f))
+
+filelist=[ f for f in os.listdir('./') if f.endswith('pdf') ]
 for f in filelist:
     os.remove(os.path.join('./', f))
 
@@ -33,6 +38,8 @@ print(filename)
 
 
 filename='england_regions_COVID_prediction_day_' + getDate.getDateFigure() + '.pdf'
+if(os.path.exists('./allPredictions/' + filename)):
+	os.remove('./allPredictions/' + filename)
 shutil.move('./' + filename, './allPredictions/')
 print('./allPredictions/' + filename)
 
