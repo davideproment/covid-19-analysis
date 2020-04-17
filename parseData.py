@@ -10,7 +10,8 @@ import getDate
 
 
 
-url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-total-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
+#url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-total-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
+url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-all-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
 print(url)
 
 #url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-total-announced-deaths-8-April-2020.xlsx'
