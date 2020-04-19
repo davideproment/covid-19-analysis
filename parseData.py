@@ -16,7 +16,7 @@ import getDate
 
 url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-all-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
 print(url)
-df=pd.read_excel(url, sheet_name=0, skiprows=15)
+df=pd.read_excel(url, sheet_name=1, skiprows=15)
 
 #url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-total-announced-deaths-8-April-2020.xlsx'
 
