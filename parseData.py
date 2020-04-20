@@ -12,7 +12,8 @@ import getDate
 
 url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-total-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
 print(url)
-df=pd.read_excel(url, sheet_name=0, skiprows=15)
+df=pd.read_excel(url, sheet_name=2, skiprows=15)
+
 
 #url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/04/COVID-19-daily-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
 #print(url)
@@ -22,7 +23,7 @@ df=pd.read_excel(url, sheet_name=0, skiprows=15)
 
 
 #print(df.head())
-print(df)
+#print(df)
 #print(df.dropna(axis='columns', how='all').dropna(axis='rows', how='all'))
 
 #cols=[c for c in df.columns if c.lower()[:] != 'Unnamed']
