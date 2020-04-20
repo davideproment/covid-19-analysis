@@ -22,7 +22,7 @@ df=pd.read_excel(url, sheet_name=0, skiprows=15)
 
 
 #print(df.head())
-#print(df)
+print(df)
 #print(df.dropna(axis='columns', how='all').dropna(axis='rows', how='all'))
 
 #cols=[c for c in df.columns if c.lower()[:] != 'Unnamed']
