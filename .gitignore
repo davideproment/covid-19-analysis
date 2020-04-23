@@ -4,6 +4,7 @@ datasets.md
 .DS_Store
 predictions/*
 *.log
+*.sh
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
