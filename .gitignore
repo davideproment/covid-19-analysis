@@ -5,6 +5,7 @@ datasets.md
 predictions/*
 *.log
 *.sh
+pythonPath.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
