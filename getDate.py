@@ -15,7 +15,7 @@ def getDateExcel():
 
 def getMonthExcel():
 	today = date.today()
-	month=today.strftime("%B")
+	month=today.month
 	return month
 
 
