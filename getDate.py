@@ -13,6 +13,11 @@ def getDateExcel():
 	return str(day) + '-' + month + '-' + str(year)
 
 
+def getMonthExcel():
+	month=today.strftime("%B")
+	return month
+
+
 def getDateFigure():
 	today=date.today()
 	day=f'{today.day:02d}'
