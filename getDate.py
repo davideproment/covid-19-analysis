@@ -10,7 +10,7 @@ def getDateExcel():
 	day=today.day
 	month=today.strftime("%B")
 	year=today.year
-	return str(day) + '-' + month + '-' + str(year)
+	return str(day-1) + '-' + month + '-' + str(year)
 
 
 def getMonthExcel():
