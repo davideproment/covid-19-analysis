@@ -16,7 +16,7 @@ def getDateExcel():
 def getMonthExcel():
 	today = date.today()
 	month=today.month
-	return month
+	return str(month)
 
 
 def getDateFigure():
