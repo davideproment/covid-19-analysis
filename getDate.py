@@ -35,6 +35,13 @@ def getPastDateFigure(pastDate=-1):
 	return year + '-' + month + '-' + day 
 
 
+def getDateExcelModified():
+	today = date.today()
+	day=today.day
+	month=today.strftime("%b")
+	year=today.year
+	return str(day) + '-' + month + '-' + str(year)
+
 
 def getDateFigureModified():
 	today=date.today()
