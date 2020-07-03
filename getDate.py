@@ -43,13 +43,6 @@ def getDateExcelModified():
 	return str(day) + '-' + month + '-' + str(year)
 
 
-def getDateFigureModified():
-	today=date.today()
-	day=f'{today.day:02d}'
-	month=f'{today.month:02d}'
-	year=str(today.year)
-	return year + '-' + 'Jul' + '-' + day 
-
 
 
 
