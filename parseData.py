@@ -11,8 +11,8 @@ import getDate
 
 
 #url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/06/COVID-19-total-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
-#url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/' + getDate.getMonthExcel() + '/COVID-19-total-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
-url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/' + getDate.getMonthExcel() + '/COVID-19-daily-announced-deaths-' + getDate.getDateExcelModified() + '.xlsx'
+url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/' + getDate.getMonthExcel() + '/COVID-19-total-announced-deaths-' + getDate.getDateExcel() + '.xlsx'
+#url='https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/' + getDate.getMonthExcel() + '/COVID-19-daily-announced-deaths-' + getDate.getDateExcelModified() + '.xlsx'
 print(url)
 df=pd.read_excel(url, sheet_name=2, skiprows=15)
 
