@@ -1,0 +1,10 @@
+# to be run after 5.30pm BST, say at 6pm BST
+module add python/anaconda/2019.10/3.7
+cd /gpfs/home/xne12yku/covid-19-analysis
+source activate covid-19-analysis
+python3 ./updateFigure.py
+python3 ./updateREADME.py
+conda deactivate
+git add .
+git commit -m 'analysis updated'
+git push
