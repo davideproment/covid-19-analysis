@@ -6,7 +6,7 @@
 
 Figures and statistical forecast provided by Paolo Davini via his [COvId NineTeen R-based ElementAr Utility (Cointreau)](https://github.com/oloapinivad/Cointreau) project, used to forecast [Italian regions and other countries](http://wilma.to.isac.cnr.it/diss/paolo/covid-19/). 
 
-![Cumulative and daily deaths by England macro-area at 2020-09-21](./england_regions_COVID_prediction_day_2020-09-21.png)
+![Cumulative and daily deaths by England macro-area at 2020-09-22](./england_regions_COVID_prediction_day_2020-09-22.png)
 
 **Note** (from NHS England dataset): interpretation of the figures should take into account the fact that totals by date of death, particularly for recent prior days, are likely to be updated in future releases. For example as deaths are confirmed as testing positive for Covid-19, as more post-mortem tests are processed and data from them are validated. Any changes are made clear in the daily files.
 
